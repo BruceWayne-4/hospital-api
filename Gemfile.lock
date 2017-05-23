@@ -46,6 +46,8 @@ GEM
     coderay (1.1.1)
     concurrent-ruby (1.0.5)
     concurrent-ruby (1.0.5-java)
+    enumerize (2.0.1)
+      activesupport (>= 3.2)
     erubi (1.6.0)
     ffi (1.9.18)
     ffi (1.9.18-java)
@@ -148,6 +150,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt (~> 3.1.7)
   byebug
+  enumerize
   listen (>= 3.0.5, < 3.2)
   mysql2 (>= 0.3.18, < 0.5)
   pry

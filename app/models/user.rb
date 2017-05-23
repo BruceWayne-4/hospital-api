@@ -1,4 +1,8 @@
 class User < ApplicationRecord
+  extend Enumerize
+
+  enumerize :gender, in: [:male, :female]
+
   before_create { generate_token(:auth_token) }
 
   protected
